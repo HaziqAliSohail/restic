@@ -28,7 +28,7 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-const MaxStreamBufferSize = 4 * 1024 * 1024
+const MaxStreamBufferSize = 32 * 1024 * 1024
 
 const MinPackSize = 4 * 1024 * 1024
 const DefaultPackSize = 16 * 1024 * 1024
